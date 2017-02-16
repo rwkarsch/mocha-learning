@@ -27,7 +27,7 @@ describe("Hello World Server", function() {
     it("returns math", function(done) {
       request.get(base_url + 'math', function(error, response, body) {
         //expect(body).toBe("2');
-        assert.equal("The answer is: 2", body, "The math test failed 1 + 1 = 2?");
+        assert.equal("The answer is: 4", body, "The math test failed 1 + 1 = 2?");
         //helloWorld.closeServer();
         done();
       });
